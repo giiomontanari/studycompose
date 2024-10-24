@@ -29,6 +29,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.studycompose.components.TextShadow
 
 class MainActivity : ComponentActivity() {
 
@@ -37,7 +38,7 @@ class MainActivity : ComponentActivity() {
         setContent {
 //            SetupView()
 //            NotificationBage()
-            MessageCard()
+            TextShadow()
         }
     }
 
