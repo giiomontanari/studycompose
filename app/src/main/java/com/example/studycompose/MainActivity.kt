@@ -29,6 +29,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.studycompose.components.InitialScreen
 import com.example.studycompose.components.SimpleTextField
 import com.example.studycompose.components.TextShadow
 
@@ -40,7 +41,8 @@ class MainActivity : ComponentActivity() {
 //            SetupView()
 //            NotificationBage()
 //            TextShadow()
-            SimpleTextField()
+//            SimpleTextField()
+            InitialScreen()
         }
     }
 
